@@ -8,7 +8,7 @@ namespace CustomWizard
     public class Wizard : IWizard {
         public void RunStarted(object automationObject, Dictionary<string, string> replacementsDictionary, WizardRunKind runKind, object[] customParams)
         {
-            replacementsDictionary.Add("$companynamespace$", "Infomedia");
+            replacementsDictionary.Add("$<RootNamespace>ConsoleApp</RootNamespace>$", "Infomedia");
         }
 
         public bool ShouldAddProjectItem(string filePath)

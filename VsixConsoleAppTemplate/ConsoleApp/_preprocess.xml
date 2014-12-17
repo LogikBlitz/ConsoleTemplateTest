@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Preprocess>
   <TemplateInfo Path="CSharp\Infomedia"/>
-  <Replacements Include="*.*" Exclude="*.vstemplate;*.csproj;*.jpg;*.png;*.ico;_preprocess.xml;_project.vstemplate.xml">
-    <add key="ConsoleApp" value="$safeprojectname$"/>
-    <add key="RootNamespace" value="$companynamespace$.$safeprojectname$"/>
-    <add key="AssemblyName" value="$companynamespace$.$safeprojectname$"/>
-    <add key="namespace" value="namespace $companynamespace$.$safeprojectname$"/>
+  <Replacements Include="*.*" Exclude="*.vstemplate;*.jpg;*.png;*.ico;_preprocess.xml;_project.vstemplate.xml">
+    <add key="ConsoleApp" value="Infomedia.$safeprojectname$"/>
   </Replacements>
-</Preprocess>
+</Preprocess> 
